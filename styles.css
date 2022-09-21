@@ -423,34 +423,159 @@ footer {
 }
 
 /* Shopping Cart */
-
-@media(max-width:991px){
-  #heading{
-     
-  }
-  #prc{
-     
-  }
-  #quantity{
-      
-  }
-  #produc{
-     
-  }
-  #total{
-    
-  }
+#image {
+  width: 5rem;
+  height: 5rem;
+  object-fit: fill;
 }
-@media(max-width:767px){
-  .mobile{
-      font-size: 10px;
+
+h5{
+  font-size: 14px;
+}
+#prc{
+  font-weight: 700;
+}
+#quantity{
+  font-weight: 700;
+}
+#produc{
+  font-weight: 700;
+}
+#total{
+  font-weight: 700;
+  padding-left: 9px;
+}
+.col{
+  width: 100%;
+}
+#zero-pad{
+  padding: 2%;
+}
+#footer-font{
+  font-size: 12px;
+}
+#heading{
+  padding-top: 15px;
+}
+
+.arrow-button,
+.trash-button {
+  color: #a3a9ae;
+ }
+
+.arrow-button:hover,
+.trash-button:hover {
+ color: var(--color-black);
+}
+
+@media screen and (min-width: 768px) {
+  #image {
+    width: 7rem;
+    height: 7rem;
   }
   h5{
-      font-size: 14px;
+    font-size: 14px;
   }
+  #prc{
+    font-weight: 700;
+  }
+  #quantity{
+    font-weight: 700;
+  }
+  #produc{
+    font-weight: 700;
+  }
+  #total{
+    font-weight: 700;
+    padding-left: 9px;
+  }
+  .col{
+    width: 100%;
+  }
+  #zero-pad{
+    padding: 2%;
+  }
+  #footer-font{
+    font-size: 12px;
+  }
+  #heading{
+    padding-top: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #image {
+    width: 9rem;
+    height: 9rem;
+  }
+  h5{
+    font-size: 14px;
+  }
+  #prc{
+    font-weight: 700;
+  }
+  #quantity{
+    font-weight: 700;
+  }
+  #produc{
+    font-weight: 700;
+  }
+  #total{
+    font-weight: 700;
+    padding-left: 9px;
+  }
+  .col{
+    width: 100%;
+  }
+  #zero-pad{
+    padding: 2%;
+  }
+  #footer-font{
+    font-size: 12px;
+  }
+  #heading{
+    padding-top: 15px;
+  }
+}
+
+@media(max-width:991px){
+  h5{
+    font-size: 14px;
+}
+
+#mobile-font{
+    font-size: 11px;
+}
+#prc{
+    font-weight: 700;
+}
+#quantity{
+    font-weight: 700;
+}
+#produc{
+    font-weight: 700;
+}
+#total{
+    font-weight: 700;
+    padding-left: 9px;
+}
+.col{
+    width: 100%;
+}
+#zero-pad{
+    padding: 2%;
+}
+#footer-font{
+    font-size: 12px;
+}
+#heading{
+    padding-top: 15px;
+}
+}
+@media(max-width:767px){
   
-  #mobile-font{
-      font-size: 11px;
+  h5{
+      font-size: 14px;
   }
   #prc{
       font-weight: 700;
@@ -464,10 +589,6 @@ footer {
   #total{
       font-weight: 700;
       padding-left: 9px;
-  }
-  #image{
-      width: 8rem;
-      height: 8rem;
   }
   .col{
       width: 100%;
